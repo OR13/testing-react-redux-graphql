@@ -1,0 +1,94 @@
+{
+  "data": {
+    "pokemon": {
+      "id": "UG9rZW1vbjowMDQ=",
+      "number": "004",
+      "name": "Charmander",
+      "attacks": {
+        "special": [
+          {
+            "name": "Flame Burst",
+            "type": "Fire",
+            "damage": 30,
+            "__typename": "Attack"
+          },
+          {
+            "name": "Flame Charge",
+            "type": "Fire",
+            "damage": 25,
+            "__typename": "Attack"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "Fire",
+            "damage": 55,
+            "__typename": "Attack"
+          }
+        ],
+        "__typename": "PokemonAttack"
+      },
+      "evolutions": [
+        {
+          "id": "UG9rZW1vbjowMDU=",
+          "number": "005",
+          "name": "Charmeleon",
+          "weight": {
+            "minimum": "16.63kg",
+            "maximum": "21.38kg",
+            "__typename": "PokemonDimension"
+          },
+          "attacks": {
+            "fast": [
+              {
+                "name": "Ember",
+                "type": "Fire",
+                "damage": 10,
+                "__typename": "Attack"
+              },
+              {
+                "name": "Scratch",
+                "type": "Normal",
+                "damage": 6,
+                "__typename": "Attack"
+              }
+            ],
+            "__typename": "PokemonAttack"
+          },
+          "__typename": "Pokemon"
+        },
+        {
+          "id": "UG9rZW1vbjowMDY=",
+          "number": "006",
+          "name": "Charizard",
+          "weight": {
+            "minimum": "79.19kg",
+            "maximum": "101.81kg",
+            "__typename": "PokemonDimension"
+          },
+          "attacks": {
+            "fast": [
+              {
+                "name": "Ember",
+                "type": "Fire",
+                "damage": 10,
+                "__typename": "Attack"
+              },
+              {
+                "name": "Wing Attack",
+                "type": "Flying",
+                "damage": 9,
+                "__typename": "Attack"
+              }
+            ],
+            "__typename": "PokemonAttack"
+          },
+          "__typename": "Pokemon"
+        }
+      ],
+      "__typename": "Pokemon"
+    }
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false
+}

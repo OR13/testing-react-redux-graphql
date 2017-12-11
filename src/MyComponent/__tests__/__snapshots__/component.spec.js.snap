@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component does not crash 1`] = `
+<div
+  style={
+    Object {
+      "padding": "20px",
+    }
+  }
+>
+  <h4>
+     Pokemon from GraphQL
+  </h4>
+  <h5>
+    pokemon from props
+  </h5>
+  <pre />
+  <h5>
+    pokemon from redux
+  </h5>
+  <pre />
+  <button
+    onClick={[Function]}
+  >
+    load pokemon
+  </button>
+</div>
+`;
